@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flask: app2.py（デバッグ）",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/app2.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Flask: app.py（デバッグ）",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/app.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
